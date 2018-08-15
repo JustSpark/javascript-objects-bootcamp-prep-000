@@ -6,6 +6,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
   
 }
 function removeFromPlaylist(playlist, artistName) {
-  playlist.slice('Slowdive');
+  console.logplaylist.slice('Slowdive');
   return playlist;
 }
