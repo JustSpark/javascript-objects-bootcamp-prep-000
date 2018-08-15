@@ -5,7 +5,5 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return Object.assign({}, playlist, { [artistName]: songTitle});
 }
 function removeFromPlaylist(playlist, artistName) { playlist[artistName];
-delete 
-  
-  
+Object.assign({}, playlist, {artistName:['My Bloody Valentine', 'Phil Ochs'] });
 }
